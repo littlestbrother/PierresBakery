@@ -45,7 +45,6 @@
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/AddFlavor.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/Create.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/Delete.cshtml.g.cs
-/home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/DeleteAll.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/Details.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/Edit.cshtml.g.cs
 /home/aaron/Documents/epicodus/epicodus-fullstack/code-review/C#/PierresBakery/obj/Debug/net5.0/Razor/Views/Treats/Index.cshtml.g.cs

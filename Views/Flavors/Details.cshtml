@@ -4,9 +4,8 @@
 
 @model Bakery.Models.Flavor;
 
-<h1>Flavor Details</h1>
+<h1>@Html.DisplayFor(model => model.Name) Details</h1>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 
 @if(@Model.JoinEntities.Count == 0)
 {
@@ -23,6 +22,5 @@ else
   </ul>
 }
 
-<p>@Html.ActionLink("Back to Flavors", "Index")</p>
 <p>@Html.ActionLink("Edit Flavor", "Edit", new { id = Model.FlavorId })</p>
 <p>@Html.ActionLink("Delete Flavor", "Delete", new { id = Model.FlavorId })</p>
