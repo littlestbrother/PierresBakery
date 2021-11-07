@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace Bakery.Controllers {
+  [Authorize]
   public class FlavorsController: Controller {
     private readonly BakeryContext _db;
 
@@ -12,6 +13,7 @@ namespace Bakery.Controllers {
       _db = db;
     }
 
+    [AllowAnonymous]
     public ActionResult Index() {
       List <Flavor> model = _db.Flavors.ToList();
       return View(model);
@@ -28,6 +30,7 @@ namespace Bakery.Controllers {
       return RedirectToAction("Index");
     }
 
+    [AllowAnonymous]
     public ActionResult Details(int id) {
       var thisFlavor = _db.Flavors
         .Include(Flavor => Flavor.JoinEntities)
